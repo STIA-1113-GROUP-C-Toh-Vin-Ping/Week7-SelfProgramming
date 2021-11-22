@@ -1,0 +1,25 @@
+package e;
+
+import java.util.Scanner;
+
+public class GPA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+			 
+			 System.out.println("Enter CGPA: ");
+			 double gPA = scan.nextDouble();
+			 if (gPA < 0)
+			    System.out.printf("Input Error");
+			 else if ( gPA >= 0);
+				    if (gPA<= 1.99)
+			    System.out.printf("On probation next semester");
+			  else if (gPA >= 2.0);
+			  	if (gPA <= 2.99)
+			     System.out.printf("Average grade");
+			  else 
+			     System.out.printf("Dean's list for this semester");
+	}
+
+}
