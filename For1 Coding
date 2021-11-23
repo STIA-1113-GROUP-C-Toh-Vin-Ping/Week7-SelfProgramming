@@ -1,0 +1,13 @@
+package selfProgramming;
+
+public class For1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		for (int i=1; i<=5; i++) {
+			System.out.print("YAHOO " );
+			System.out.print("*** ");
+		}// 有{}他就print 会print***5次 没有的话只会在last的时候print
+
+	}
+}
