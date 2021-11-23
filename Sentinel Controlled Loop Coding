@@ -1,0 +1,19 @@
+package selfProgramming;
+import java.util.Scanner;
+public class SentinelControlledLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner x = new Scanner(System.in);
+System.out.println("Enter an Integer, or -1 to stop: ");
+int a =x.nextInt();
+while(a!=-1)
+{
+	System.out.println("Inside Looping");
+	System.out.println("Enter an Integer, or -1 to stop: ");
+	a = x.nextInt();
+}
+System.out.println("Sentinel value detected. Good Bye.");
+	}
+
+}
