@@ -1,0 +1,22 @@
+package repetitionAndSelection;
+import java.util.Scanner;
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner x = new Scanner(System.in);
+		char yes='Y';
+		char no = 'N';
+		char choice;
+		
+		System.out.print("Enter yes or no:");
+		choice= x.next().charAt(0);
+		while(choice !='N') {
+			System.out.println("Inside Looping");
+			System.out.print("Enter yes or no:");
+			choice= x.next().charAt(0);
+		}
+		System.out.println("Sentinel value detected. Good Bye.");
+	}
+
+}
