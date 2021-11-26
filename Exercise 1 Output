@@ -1,0 +1,21 @@
+Please enter a number(0-100): 
+50
+Your number is too high.
+Please enter a number(0-100): 
+30
+Your number is too high.
+Please enter a number(0-100): 
+10
+Your number is too high.
+Please enter a number(0-100): 
+5
+Your number is too low.
+Please enter a number(0-100): 
+7
+Your number is too low.
+Please enter a number(0-100): 
+9
+Your number is too high.
+Please enter a number(0-100): 
+8
+Congradulation!
